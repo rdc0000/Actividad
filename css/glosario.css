@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#logo{
+	padding: 20px;
+}
+.menu{
+	background: gray;
+
+}
+.menu ul{
+	list-style: none;
+    overflow: hidden;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	padding: 30px 50px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	background: white;
+	color: gray;
+}
+.text{
+	text-align: right;
+}
+article{
+	display: inline-block;
+	font-size: 20px;
+}
+h1{
+	color: red;
+	font-size: 30px;
+}
+h2{
+	font-size: 40px;
+	color: red;
+}
+body{
+	margin: auto 30px;
+}
+footer{
+	background: black;
+	color: white;
+}

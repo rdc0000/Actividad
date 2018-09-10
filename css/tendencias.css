@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#logo{
+	padding: 20px;
+}
+.menu{
+	background: gray;
+
+}
+.menu ul{
+	list-style: none;
+    overflow: hidden;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	padding: 30px 50px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	background: white;
+	color: gray;
+}
+.text{
+	text-align: right;
+}
+.lit{
+	border-bottom: 40px 0;
+	border-color: blue;
+	padding: 20px;
+}
+p{
+	text-align: left;
+	float: center;
+}
